@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4e6cc464024fb4da3a3b43cdd8d2d422
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165955
+  packageName: Simple Video Player
+  packageVersion: 1.1
+  assetPath: Assets/Simple Video Manager/Prefabs/3D Canvas Video Clip.prefab
+  uploadId: 711503

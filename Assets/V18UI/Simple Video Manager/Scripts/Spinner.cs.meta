@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ffc06a975384548cebf1e175a6630a45
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165955
+  packageName: Simple Video Player
+  packageVersion: 1.1
+  assetPath: Assets/Simple Video Manager/Scripts/Spinner.cs
+  uploadId: 711503

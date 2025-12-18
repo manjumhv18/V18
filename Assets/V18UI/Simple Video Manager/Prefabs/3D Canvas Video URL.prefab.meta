@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ec41669124a144977991d93c64c17594
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165955
+  packageName: Simple Video Player
+  packageVersion: 1.1
+  assetPath: Assets/Simple Video Manager/Prefabs/3D Canvas Video URL.prefab
+  uploadId: 711503

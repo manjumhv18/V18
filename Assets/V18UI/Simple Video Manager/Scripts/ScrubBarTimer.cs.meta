@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3d8f32f3abec046d48aee1fa7ed1b379
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165955
+  packageName: Simple Video Player
+  packageVersion: 1.1
+  assetPath: Assets/Simple Video Manager/Scripts/ScrubBarTimer.cs
+  uploadId: 711503

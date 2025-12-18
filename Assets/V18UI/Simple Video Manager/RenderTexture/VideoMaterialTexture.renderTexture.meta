@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c577059093f184c6cb8d5d39f567c27f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165955
+  packageName: Simple Video Player
+  packageVersion: 1.1
+  assetPath: Assets/Simple Video Manager/RenderTexture/VideoMaterialTexture.renderTexture
+  uploadId: 711503

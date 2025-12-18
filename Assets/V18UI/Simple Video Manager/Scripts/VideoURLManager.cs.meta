@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 5e2c475cf50b94f1dbb1d90d15813986
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 165955
+  packageName: Simple Video Player
+  packageVersion: 1.1
+  assetPath: Assets/Simple Video Manager/Scripts/VideoURLManager.cs
+  uploadId: 711503
