@@ -71,6 +71,13 @@ public class FormValidator : MonoBehaviour
         [Header("Form Message")]
         public TMP_Text formMessageText;
         public string successMessage;
+
+        [Header("Form Buttons")]
+        public Button submitButton;
+
+        [Header("Panel to activate on Success")]
+        public GameObject selfPanel;
+        public GameObject siblingPanel;
     }
 
     // ================= INSPECTOR =================
@@ -92,6 +99,9 @@ public class FormValidator : MonoBehaviour
         if (ValidateForm(formIndex))
         {
             Debug.Log("Form validated successfully");
+            Form form = forms[formIndex];
+            form.siblingPanel.SetActive(true);
+            form.selfPanel.SetActive(false);
         }
     }
 
