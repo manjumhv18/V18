@@ -92,6 +92,7 @@ public class FormValidator : MonoBehaviour
     public Color errorColor = Color.red;
 
     Coroutine messageCoroutine;
+    private readonly Dictionary<FormField, Coroutine> _fieldErrorCoroutines = new Dictionary<FormField, Coroutine>();
 
     // ================= PUBLIC API =================
     public void Validate(int formIndex)
@@ -204,7 +205,14 @@ public class FormValidator : MonoBehaviour
         field.statusText.color = errorColor;
         field.statusText.gameObject.SetActive(true);
 
-        StartCoroutine(AutoHideFieldError(field));
+        // Cancel any existing auto-hide for this field before starting a new one
+        if (_fieldErrorCoroutines.TryGetValue(field, out var existing))
+        {
+            StopCoroutine(existing);
+        }
+
+        var coroutine = StartCoroutine(AutoHideFieldError(field));
+        _fieldErrorCoroutines[field] = coroutine;
     }
 
     IEnumerator AutoHideFieldError(FormField field)
@@ -219,6 +227,12 @@ public class FormValidator : MonoBehaviour
 
         field.statusText.text = "";
         field.statusText.gameObject.SetActive(false);
+
+        // Remove any tracking for this field since it's now cleared
+        if (_fieldErrorCoroutines.TryGetValue(field, out var existing))
+        {
+            _fieldErrorCoroutines.Remove(field);
+        }
     }
 
     void ShowFormMessage(Form form, string message, MessageType type)
