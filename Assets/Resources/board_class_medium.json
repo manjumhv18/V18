@@ -1,0 +1,35 @@
+{
+  "board": "cbse",
+  "class": "class_9",
+  "medium": "english",
+  "subjects": [
+    {
+      "subject_id": "maths",
+      "subject_name": "Mathematics",
+      "subject_icon": "icons/subjects/maths.png",
+      "total_chapters": 15,
+      "completed_chapters": 5,
+      "subject_progress_percent": 33
+    },
+    {
+      "subject_id": "science",
+      "subject_name": "Science",
+      "subject_icon": "icons/subjects/science.png",
+      "total_chapters": 14,
+      "completed_chapters": 3,
+      "subject_progress_percent": 21
+    },
+    {
+      "subject_id": "social",
+      "subject_name": "Social Science",
+      "subject_icon": "icons/subjects/social.png",
+      "total_chapters": 10,
+      "completed_chapters": 2,
+      "subject_progress_percent": 20
+    }
+  ],
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2025-12-20"
+  }
+}
